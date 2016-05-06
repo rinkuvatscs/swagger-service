@@ -27,7 +27,7 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
-	compile("com.mangofactory:swagger-springmvc:1.0.2")
+	    compile ("io.springfox:springfox-swagger2:2.4.0")
 	testCompile('org.springframework.boot:spring-boot-starter-test') 
 }
 
